@@ -26,7 +26,6 @@ body {
   height: 100%;
   transform-style: preserve-3d;
   animation: animate 6s linear infinite;
-  transform: rotateX(-20deg) rotateY(25deg);
 }
 
 @keyframes animate {
@@ -86,7 +85,6 @@ body {
   transform-style: preserve-3d;
   animation: animate2 6s linear infinite;
   scale: 0.5;
-  // transform: rotateX(-20deg) rotateY(25deg);
 }
 
 @keyframes animate2 {
