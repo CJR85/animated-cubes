@@ -45,6 +45,13 @@ body {
   background: var(--clr);
   transform: rotateY(calc(90deg * var(--i))) translateZ(150px);
   transform-style: preserve-3d;
+  transition: 0.5s;
+}
+
+.cube:hover .big span {
+  background: transparent;
+  border: 10px solid #ffa20d;
+  filter: drop-shadow(0 0 20px #ffa20d);
 }
 
 .cube .big span.top {
