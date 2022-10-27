@@ -46,3 +46,16 @@ body {
   transform: rotateY(calc(90deg * var(--i))) translateZ(150px);
   transform-style: preserve-3d;
 }
+
+.cube .big span.top {
+  transform: rotateX(90deg) translateZ(150px);
+}
+
+.cube .big span.top::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  transform: translateZ(-350px);
+  background: rgba(0, 0, 0, 0.5);
+  filter: blur(50px);
+}
